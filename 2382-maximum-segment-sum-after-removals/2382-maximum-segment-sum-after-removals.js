@@ -50,7 +50,7 @@ var maximumSegmentSum = function (nums, removeQueries) {
         if (new_value > max) {
             max = new_value;
         }
-        result.unshift(max);
+        result.push(max);
     }
-    return result;
+    return result.reverse();
 };
