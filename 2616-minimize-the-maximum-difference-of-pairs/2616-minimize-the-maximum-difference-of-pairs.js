@@ -22,12 +22,10 @@ var minimizeMax = function (nums, p) {
             count++;
             i++;
         }
-        console.log(count);
         if (count >= p)
             en = mid;
         else
             st = mid + 1;
     }
-    console.log(distances, en);
     return distances[en];
 };
