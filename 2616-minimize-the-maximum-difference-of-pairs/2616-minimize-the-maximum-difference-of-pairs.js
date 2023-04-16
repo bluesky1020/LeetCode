@@ -16,7 +16,6 @@ var minimizeMax = function (nums, p) {
     while (en > st) {
         let mid = Math.floor((st + en) / 2);
         let count = 0;
-        console.log(mid);
         for (let i = 1; i < nums.length; i++) {
             if (nums[i] - nums[i - 1] > distances[mid])
                 continue;
