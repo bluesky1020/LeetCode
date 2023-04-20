@@ -11,9 +11,5 @@ var divide = function(dividend, divisor) {
     if(dividend < 0) dividend *= -1;
     if(divisor < 0) divisor *=-1;
     let res = Math.floor(dividend/divisor)*(isNegative?-1:1);
-    // if(res > 2147483647)
-    //     res = 2147483647;
-    // if(res < -2147483647)
-    //     res = -2147483647;
     return res;
 };
