@@ -1,4 +1,3 @@
-
 var SmallestInfiniteSet = function() {
     this.nums = [];
     return null
